@@ -4,10 +4,9 @@
 
 ### Introduction
 
-Visualizing a model is sometimes a difficult task. Its becomes more worse when the data model gets larger,
-trying to understand how models relate to eachother.
+Visualizing a model is sometimes a difficult task. When the data model gets larger, it becomes even more difficult to understand how models relate to each other.
 
-loopback-component-visualizer helps you in creating a model diagram with the relation for you loopback application.
+loopback-component-visualizer helps you in creating a model diagram with a representation of all the properties, methods and relationships of your models for your loopback application.
 
 ### Table of contents
 * Installation
@@ -15,8 +14,10 @@ loopback-component-visualizer helps you in creating a model diagram with the rel
 
 #### Installation
 
+Install the module in your loopback application folder.
+
 ```sh
-$ npm install loopback-component-visualizer
+$ npm install loopback-component-visualizer --save
 ```
 
 #### Usage
@@ -33,4 +34,4 @@ You can browse @ http://host:port/visualize
 
 #### Preview
 
-![A Relational Model](https://github.com/yantrashala/loopback-component-visualizer/blob/master/preview.jpg?raw=true "A Relational Model")
+![A Relational Model](https://github.com/yantrashala/loopback-component-visualizer/blob/master/preview.png?raw=true "A Relational Model")
