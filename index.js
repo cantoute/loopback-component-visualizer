@@ -9,6 +9,7 @@ function visualize(loopbackApp, options) {
         mountPath: '/visualize',
     });
     loopbackApp.use(options.mountPath, createDiagram(loopbackApp, options));
+    loopbackApp.set('loopback-component-visualizer', options);
 }
 
 function createDiagram(app, options) {
